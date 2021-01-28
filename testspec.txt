@@ -1,0 +1,24 @@
+1. extract.py
+  Input:
+    "directory"/plates.csv
+    "directory"/fits00.fits
+  Output:
+    positionlist.npy
+    imagelist.npy
+
+2. psfShape.py
+  Input:
+    positionlist.npy
+    imagelist.npy
+  Output:
+    positionlist2.npy
+    psfcoeff.npy
+
+3. starCenter.py
+  Input:
+    positionlist2.npy
+    psfcoeff.npy
+  Output:
+    eclipticPositions.npy
+    starCenter.npy
+
